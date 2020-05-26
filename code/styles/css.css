@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
 .light {
   --primary-color: #1a242d;
   --primary-background-color: #ffffff;
@@ -44,7 +46,7 @@
 
 /** ---- Global style ---- **/
 #page * {
-  font-family: Montserrat !important;
+  font-family: 'Lato', sans-serif !important;
   color: var(--primary-text-color); }
 
 span.button-end,
@@ -54,6 +56,14 @@ span.fold-start {
   display: none;
   text-align: center !important;
   background: none !important; }
+
+.medium.ui-button.ui-widget.ui-state-default.ui-corner-all {
+	background-color: #4d4d4d;
+}
+
+.small.ui-button.ui-widget.ui-state-default.ui-corner-all {
+	background-color: #4d4d4d;
+}
 
 span.button-start,
 span.fold-start {
@@ -430,4 +440,4 @@ div.container.static {
     padding: 1rem 0;
     font-size: 0.9rem; }
   .container-background .decorated.big.center.printable.margin-top tbody th {
-    font-weight: bold; }
+    font-weight: 900; }
