@@ -65,6 +65,10 @@ span.fold-start {
 	background-color: #4d4d4d;
 }
 
+.ui-button.ui-widget.ui-state-default.ui-corner-all {
+	background-color: #4d4d4d;
+}
+
 span.button-start,
 span.fold-start {
   display: block; }
